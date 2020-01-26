@@ -1,0 +1,21 @@
+{
+  "name": "notion",
+  "version": "1.1.0",
+  "description": "simple, native support for Notion on Linux",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js",
+    "package-linux": "electron-packager . notion --overwrite --asar=true --platform=linux --arch=x64 --icon=/icon/app-icon.png --prune=true --out=release-builds",
+    "create-debian-installer": "electron-installer-debian --src release-builds/notion-linux-x64/ --arch amd64 --config debian.json"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.1.13"
+  },
+  "dependencies": {
+    "electron-editor-context-menu": "^1.1.1",
+    "electron-spell-check-provider": "^1.1.1",
+    "spellchecker": "^3.7.0",
+    "underscore": "^1.9.1"
+  }
+}

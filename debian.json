@@ -1,0 +1,10 @@
+{
+  "dest": "dist/installers/",
+  "icon": "icon/app-icon.png",
+  "categories": [
+    "Office"
+  ],
+  "lintianOverrides": [
+    "changelog-file-missing-in-native-package"
+  ]
+}
