@@ -15,7 +15,7 @@ This should create an app named `notion`.
 You can also build the app from source. 
 1. Open your favorite terminal and enter:
    ```shell
-   git clone https://github.com/cyb/n.git
+   git clone https://github.com/3x/n.git
    ```
 
 2. Enter the directory with this command:
@@ -43,4 +43,4 @@ You can also build the app from source.
 
 ---
 
-⚠️ If you run into any issues at all, feel free to open an issue [here](https://github.com/cyb/n/issues). I'm here to help. There are no stupid questions, and we were all beginners once. (\* \^ ω \^)
+⚠️ If you run into any issues at all, feel free to open an issue [here](https://github.com/3x/n/issues). I'm here to help. There are no stupid questions, and we were all beginners once. (\* \^ ω \^)
